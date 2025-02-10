@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media-queree.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="name-logo">Sayantan Laha</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="./project.html">Projects</a></li>
+                <li><a href="./career.html">Career</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburgger-nav">
+        <div class="name-logo">Sayantan Laha</div>
+        <div class="hamburgger-menu">
+            <div class="hamburgger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="./project.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#career" onclick="toggleMenu()">Career</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="profile_pic">
+            <img id="zoom-img" src="./assets/WhatsApp Image 2025-02-09 at 8.10.59 PM.jpeg"
+                alt="sayantan laha proifle pic">
+        </div>
+        <div class="text">
+            <p class="text_p1">hello I am</p>
+            <h1 class="title">Sayantan Laha</h1>
+            <p class="text_p2">Full-stack Developer <br> software engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color2">Resume</button>
+                <button class="btn btn-color1">Github</button>
+            </div>
+
+            <div class="social-media">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://linkedin.com/in/sayantan-laha/'" />
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>Copyright © 2025 Sayantan Laha. All Rights Reserved.</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+<!-- <script src="img.js"></script> -->
+
+</html>
