@@ -72,8 +72,14 @@ a:hover {
 }
 
 .hamburgger-menu {
-    position: relative;
-    display: inline-block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.504); /* Semi-transparent background */
+    z-index: 1000; /* Ensures it stays on top */
+    padding: 15px;
+    border-radius: 10px; /* Optional: Makes it look better */
+    backdrop-filter: blur(10px); 
 }
 
 .hamburgger-icon {
@@ -117,7 +123,7 @@ a:hover {
 
 .menu-link a:hover {
     color: black;
-    background-color: white;
+    /* background-color: rgba(255, 255, 255, 0.504); */
     border-radius: 0px;
     border: 0px;
 }
@@ -133,7 +139,7 @@ a:hover {
     list-style: none;
     border: 0px;
     border-radius: 0px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.504);
     text-decoration: underline;
     text-underline-offset: 0.3rem;
     color: black;
@@ -418,10 +424,9 @@ footer{
 .container{
     width: 100%;
     padding: 35px 10%;
-}
-.container{
     padding-right: calc(10%-30px);
 }
+
 main.row{
     display: grid;
     grid-template-columns: 1fr 1fr;
