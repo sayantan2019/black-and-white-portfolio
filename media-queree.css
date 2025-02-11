@@ -65,6 +65,56 @@ main.row{
         
        
     }
+
+    /* project */
+
+    #project {
+        flex-direction: column; /* Stack items vertically */
+        gap: 2rem; /* Reduce spacing */
+        height: auto; /* Remove fixed height */
+        padding: 10px;
+    }
+
+    .first {
+        width: 90%; /* Limit width */
+        margin: auto; /* Center the container */
+        padding: 1rem;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column; /* Stack projects vertically */
+        align-items: center; /* Center content */
+        width: 100%;
+    }
+
+    .first-project {
+        width: 70%; /* Ensure proper width */
+        margin: auto;
+    }
+
+    .project-img {
+        width: 100%; /* Make images fully responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .project-title {
+        font-size: 1.5rem; /* Adjust font size */
+        margin-bottom: 1rem;
+    }
+
+    .btn-container {
+        flex-direction: column; /* Stack buttons */
+        align-items: center;
+    }
+
+    .btn-container a {
+        width: 80%; /* Make buttons wider */
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* contact */
     
     .info-box{
         display: flex;
