@@ -37,16 +37,23 @@
         
 }
 
+main.row{
+    display: block;
 
 }
 
-@media screen and (max-width: 720px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
     #desktop-nav{
         display: none;
     }
     #hamburgger-nav{
         display: flex;
     }
+
     #profile, .profile_pic {
         width: 400px; /* Adjust the size as needed */
         height: 400px;
@@ -67,9 +74,6 @@
         margin-top: 20vh;
     }
         
-        
-    
-
     .info-container{
         display: flex;
         align-items: center;
@@ -85,4 +89,48 @@
 }
 
 
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px 5%; /* Reduce padding for smaller screens */
+    }
+
+    main.row {
+        display: block; /* Change to single-column layout */
+    }
+
+    .col .contents {
+        border-left: none; /* Remove the left border for better readability */
+        margin: 0; /* Reset margin */
+        padding: 10px; /* Add spacing */
+    }
+
+    .col .contents img {
+        width: 80px; /* Reduce image size */
+        margin-left: auto; /* Center image */
+        margin-right: auto;
+        display: block; /* Ensure proper positioning */
+        margin-top: 10px;
+    }
+
+    .col .contents .box {
+        padding: 15px; /* Reduce box padding */
+        border-radius: 15px; /* Adjust border radius */
+    }
+
+    .col .contents .box::before {
+        display: none; /* Hide the decorative element */
+    }
+
+    .box h3 {
+        font-size: 16px; /* Adjust heading size */
+    }
+
+    .box p {
+        font-size: 14px; /* Adjust text size */
+        line-height: 1.4; /* Improve readability */
+    }
 }
