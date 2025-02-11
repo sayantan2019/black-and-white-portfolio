@@ -55,8 +55,8 @@ main.row{
     }
 
     #profile, .profile_pic {
-        width: 400px; /* Adjust the size as needed */
-        height: 400px;
+        width: 300px; /* Adjust the size as needed */
+        height: 300px;
         border-radius: 50%; /* Keeps it circular */
         display: flex;
         flex-direction: column;
