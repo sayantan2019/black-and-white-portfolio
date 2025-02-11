@@ -122,7 +122,6 @@ main.row{
         align-items: center;
         gap: 1rem;
         margin-top: 20vh;
-        width: 50%;
     }
         
     .info-container{
@@ -132,12 +131,14 @@ main.row{
         border: 1px solid black;
         padding: 12px;
         border-radius: 20px;
-        width: 90%;
+        width: 70%;
         min-width: 100px;
         max-width: 300px;
-        gap: 10px;
+        gap: 10px;    
         
 }
+
+
 
 /* education  */
 
