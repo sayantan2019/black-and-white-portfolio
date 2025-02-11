@@ -173,7 +173,7 @@ a:hover {
     transform: none;
 }
 
-/* section */
+/* profile section */
 
 section {
     padding-top: 4vh;
@@ -304,6 +304,13 @@ section {
 
 /* project - section */
 
+#project{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
 .first {
     display: flex;
     justify-content: space-around;
@@ -320,20 +327,22 @@ section {
 }
 
 .project-container {
-    display: flex;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 2000vh;
+    margin: auto;
 }
 
-.project-section {
+/* .project-section {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     gap: 2.5rem;
-}
+} */
 
 .first-project {
     text-align: center;
@@ -367,32 +376,40 @@ section {
 }
 
 /* contact */
-.boundary .info-box {
-    display: flex;
+.info-box {
+    display: inline-flex;  /* Takes only necessary space */
     justify-content: center;
-    border-radius: 12rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-image: initial;
-    border-color: rgb(163, 163, 163);
-    margin: 6rem auto;
-    padding: 0.5rem;
-    width:188vh;
+    align-items: center;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163);
+    padding: 1rem 2rem;
+    width: fit-content; /* Auto-adjust width */
+    max-width: 90vw; /* Prevents it from getting too large */
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 3rem auto; /* Centers the box */
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.info-container {
+.info-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 0.5rem;
-    margin: 1rem;
+    margin: 0 12px 0px 10px;
+    flex-wrap: wrap; /* Ensures responsiveness */
 }
+
+
  
 /*footer */
 
 footer{
     text-align: center;
-    
     
 }
 

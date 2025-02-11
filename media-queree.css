@@ -5,5 +5,36 @@
     #hamburgger-nav{
         display: flex;
     }
+    #profile, .profile_pic {
+        display: flex;
+        flex-direction: column;
+       
+    }
     
+    .info-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 20vh;
+    }
+        
+        
+    }
+
+
+
+    .info-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border: 1px solid black;
+        padding: 12px;
+        border-radius: 20px;
+        width: 90%;
+        min-width: 200px;
+        max-width: 300px;
+        gap: 10px;
+        
 }
+
