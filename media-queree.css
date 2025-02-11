@@ -131,7 +131,7 @@ main.row{
         border: 1px solid black;
         padding: 12px;
         border-radius: 20px;
-        width: 70%;
+        width: auto;
         min-width: 100px;
         max-width: 300px;
         gap: 10px;    
