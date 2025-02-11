@@ -122,6 +122,7 @@ main.row{
         align-items: center;
         gap: 1rem;
         margin-top: 20vh;
+        width: 50%;
     }
         
     .info-container{
@@ -132,7 +133,7 @@ main.row{
         padding: 12px;
         border-radius: 20px;
         width: 90%;
-        min-width: 200px;
+        min-width: 100px;
         max-width: 300px;
         gap: 10px;
         
